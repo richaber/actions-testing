@@ -77,4 +77,4 @@ function wrongprefix_init() {
 	_e('Hello, world!', 'wrong-domain');
 }
 
-$wrongprefix_globalvar = 'globalvar';
+$actionstesting_globalvar = 'globalvar';
