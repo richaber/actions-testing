@@ -76,3 +76,5 @@ function wrongprefix_init() {
 	// not a wpcs compliant comment
 	_e('Hello, world!', 'wrong-domain');
 }
+
+$wrongprefix_globalvar = 'globalvar';
