@@ -74,7 +74,7 @@ define(
 /**
  * WPCS compliant comment.
  */
-function wrongprefix_init() {
+function actionstesting_init() {
 	// not a wpcs compliant comment
 	esc_html_e( 'Hello, world!', 'actions-testing' );
 }
