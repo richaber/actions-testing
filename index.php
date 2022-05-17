@@ -74,7 +74,7 @@ define(
 // not a wpcs compliant comment
 function wrongprefix_init() {
 	// not a wpcs compliant comment
-	_e('Hello, world!', 'wrong-domain');
+	esc_html_e( 'Hello, world!', 'actions-testing' );
 }
 
 $actionstesting_globalvar = 'globalvar';
