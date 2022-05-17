@@ -71,10 +71,12 @@ define(
 	)
 );
 
-// not a wpcs compliant comment
-function wrongprefix_init() {
-	// not a wpcs compliant comment
-	_e('Hello, world!', 'wrong-domain');
+/**
+ * WPCS compliant comment.
+ */
+function actionstesting_init() {
+	// WPCS compliant comment.
+	esc_html_e( 'Hello, world!', 'actions-testing' );
 }
 
-$wrongprefix_globalvar = 'globalvar';
+$actionstesting_globalvar = 'globalvar';
