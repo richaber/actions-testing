@@ -64,7 +64,7 @@ define(
  * @since 0.1.0-dev
  */
 define(
-	'WRONGPREFIX_PLUGIN_URL',
+	'ACTIONSTESTING_PLUGIN_URL',
 	plugins_url(
 		'/',
 		ACTIONSTESTING_FILE
