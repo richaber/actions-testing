@@ -64,15 +64,19 @@ define(
  * @since 0.1.0-dev
  */
 define(
-	'WRONGPREFIX_PLUGIN_URL',
+	'ACTIONSTESTING_PLUGIN_URL',
 	plugins_url(
 		'/',
 		ACTIONSTESTING_FILE
 	)
 );
 
-// not a wpcs compliant comment
-function wrongprefix_init() {
-	// not a wpcs compliant comment
-	_e('Hello, world!', 'wrong-domain');
+/**
+ * WPCS compliant comment.
+ */
+function actionstesting_init() {
+	// WPCS compliant comment.
+	esc_html_e( 'Hello, world!', 'actions-testing' );
 }
+
+$actionstesting_globalvar = 'globalvar';
