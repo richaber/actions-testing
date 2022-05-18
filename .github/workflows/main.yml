@@ -1,12 +1,6 @@
 name: Code Style Lint
 
 on:
-  push:
-    branches:
-      - main
-      - stage
-      - develop
-      - v[0-9]+.x
   pull_request:
     types:
       - opened
